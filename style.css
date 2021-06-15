@@ -1,0 +1,22 @@
+body{
+  background-image: linear-gradient(to bottom left, pink, red);
+  height: 609px;
+}
+div{
+  /* background-position: center; */
+  background-attachment: scroll;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: auto;
+}
+.satu{
+  width: 600px;
+  height: 400px;
+  background-image: radial-gradient(circle at bottom center, white, blue);
+  background-position: bottom;
+}
+.dua{
+  width: 600px;
+  height: 120px;
+  background-image: repeating-radial-gradient(circle at bottom center, blue, white);
+}
